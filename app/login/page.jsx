@@ -15,7 +15,7 @@ export default function LoginPage() {
     email: '',
     password: '',
   });
-  const [error, setError] = useState('');
+const [error, setError] = useState('');
 
   const handleEmailLogin = async (e) => {
     e.preventDefault();
@@ -103,3 +103,5 @@ export default function LoginPage() {
     </div>
   );
 } 
+
+//  <by aslam></by>    
